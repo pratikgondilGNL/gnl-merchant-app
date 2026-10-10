@@ -1,0 +1,5 @@
+package com.gnl.merchant
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()

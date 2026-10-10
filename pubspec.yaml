@@ -1,0 +1,48 @@
+name: merchant_project
+description: "GNL Merchant - premium nightlife experience management"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.9
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Routing
+  go_router: ^14.8.1
+
+  # Networking
+  dio: ^5.7.0
+
+  # OTP input
+  pinput: ^6.0.2
+
+  google_fonts: ^8.1.0
+
+  # Image picker
+  file_selector: ^1.0.0
+  flutter_secure_storage: ^10.3.1
+
+  # External links
+  url_launcher: ^6.0.0
+
+  # Formatting
+  intl: ^0.19.0
+  mobile_scanner: ^7.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
